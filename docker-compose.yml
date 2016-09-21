@@ -1,0 +1,15 @@
+---
+openhab:
+  image: 'openhab/openhab:armhf-offline'
+  restart: always
+  ports:
+    - "8080:8080"
+    - "8443:8443"
+    - "5555:5555"
+  net: "host"
+  volumes:
+    - '/etc/localtime:/etc/localtime:ro'
+    - '/etc/timezone:/etc/timezone:ro'
+    - '/home/pi/openhab/userdata:/openhab/userdata'
+    - '/home/pi/openhab/conf:/openhab/conf'
+  command: "server"

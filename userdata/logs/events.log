@@ -1,0 +1,342 @@
+2016-09-21 21:14:25.825 [ItemChannelLinkAddedEvent ] - Link 'Weather_Temperature-yahooweather:weather:berlin:temperature' has been added.
+2016-09-21 21:14:25.880 [ItemChannelLinkAddedEvent ] - Link 'Sun_Elevation-astro:sun:home:position#elevation' has been added.
+2016-09-21 21:14:25.901 [ItemChannelLinkAddedEvent ] - Link 'Sun_Azimuth-astro:sun:home:position#azimuth' has been added.
+2016-09-21 21:14:25.904 [ItemChannelLinkAddedEvent ] - Link 'Sunrise_Time-astro:sun:home:rise#start' has been added.
+2016-09-21 21:14:25.907 [ItemChannelLinkAddedEvent ] - Link 'Sunset_Time-astro:sun:home:set#start' has been added.
+2016-09-21 21:14:25.910 [ItemChannelLinkAddedEvent ] - Link 'Moon_Elevation-astro:moon:home:position#elevation' has been added.
+2016-09-21 21:14:25.913 [ItemChannelLinkAddedEvent ] - Link 'Moon_Azimuth-astro:moon:home:position#azimuth' has been added.
+2016-09-21 21:14:25.916 [ItemChannelLinkAddedEvent ] - Link 'Moon_Phase-astro:moon:home:phase#name' has been added.
+2016-09-21 21:14:25.918 [ItemChannelLinkAddedEvent ] - Link 'CurrentDate-ntp:ntp:demo:dateTime' has been added.
+2016-09-21 21:15:03.796 [GroupItemStateChangedEvent] - gFF changed from NULL to UNDEF through FF_Office
+2016-09-21 21:15:03.796 [ItemStateChangedEvent     ] - Wifi_Level changed from NULL to 1
+2016-09-21 21:15:03.806 [GroupItemStateChangedEvent] - FF_Office changed from NULL to UNDEF through Wifi_Level
+2016-09-21 21:15:03.883 [ItemStateChangedEvent     ] - Temperature_GF_Corridor changed from NULL to 18.2
+2016-09-21 21:15:03.886 [ItemStateChangedEvent     ] - Light_GF_Kitchen_Ceiling changed from NULL to OFF
+2016-09-21 21:15:03.890 [ItemStateChangedEvent     ] - Temperature_GF_Kitchen changed from NULL to 20.0
+2016-09-21 21:15:03.893 [ItemStateChangedEvent     ] - Temperature_FF_Bath changed from NULL to 19.5
+2016-09-21 21:15:03.898 [ItemStateChangedEvent     ] - Temperature_FF_Office changed from NULL to 22.4
+2016-09-21 21:15:03.901 [ItemStateChangedEvent     ] - Temperature_FF_Bed changed from NULL to 19.0
+2016-09-21 21:15:03.905 [ItemStateChangedEvent     ] - Light_FF_Corridor_Ceiling changed from NULL to OFF
+2016-09-21 21:15:03.907 [ItemStateChangedEvent     ] - Light_FF_Office_Ceiling changed from NULL to OFF
+2016-09-21 21:15:03.910 [GroupItemStateChangedEvent] - GF_Living changed from NULL to UNDEF through Light_GF_Living_Table
+2016-09-21 21:15:03.913 [GroupItemStateChangedEvent] - Temperature changed from 18.2 to 19.6 through Temperature_GF_Toilet
+2016-09-21 21:15:03.916 [GroupItemStateChangedEvent] - Temperature changed from 20.0 to 19.9 through Temperature_FF_Bath
+2016-09-21 21:15:03.919 [GroupItemStateChangedEvent] - Lights changed from OFF to ON through Light_GF_Toilet_Ceiling
+2016-09-21 21:15:03.926 [GroupItemStateChangedEvent] - Status changed from 19.9 to 20.3 through Temperature
+2016-09-21 21:15:03.929 [GroupItemStateChangedEvent] - Status changed from 20.1 to 20.0 through Temperature
+2016-09-21 21:15:03.933 [GroupItemStateChangedEvent] - gC changed from NULL to UNDEF through Light_C_Corridor_Ceiling
+2016-09-21 21:15:03.936 [GroupItemStateChangedEvent] - Garden changed from NULL to UNDEF through Light_Garden_Garage
+2016-09-21 21:15:03.938 [GroupItemStateChangedEvent] - gGF changed from NULL to UNDEF through GF_Living
+2016-09-21 21:15:03.941 [GroupItemStateChangedEvent] - GF_Corridor changed from NULL to UNDEF through Temperature_GF_Corridor
+2016-09-21 21:15:03.943 [GroupItemStateChangedEvent] - Temperature changed from 19.6 to 19.9 through Temperature_GF_Living
+2016-09-21 21:15:03.946 [GroupItemStateChangedEvent] - Temperature changed from 19.9 to 20.0 through Temperature_GF_Kitchen
+2016-09-21 21:15:03.949 [GroupItemStateChangedEvent] - FF_Bath changed from NULL to UNDEF through Temperature_FF_Bath
+2016-09-21 21:15:03.956 [GroupItemStateChangedEvent] - Temperature changed from 20.3 to 20.1 through Temperature_FF_Child
+2016-09-21 21:15:03.971 [GroupItemStateChangedEvent] - FF_Bed changed from NULL to UNDEF through Temperature_FF_Bed
+2016-09-21 21:15:03.978 [ItemStateChangedEvent     ] - Light_GF_Living_Table changed from NULL to 0
+2016-09-21 21:15:03.982 [ItemStateChangedEvent     ] - Temperature_GF_Toilet changed from NULL to 21.0
+2016-09-21 21:15:03.986 [ItemStateChangedEvent     ] - Light_GF_Toilet_Ceiling changed from NULL to ON
+2016-09-21 21:15:03.989 [ItemStateChangedEvent     ] - Light_FF_Child_Ceiling changed from NULL to ON
+2016-09-21 21:15:03.994 [ItemStateChangedEvent     ] - Light_FF_Bed_Ceiling changed from NULL to ON
+2016-09-21 21:15:03.998 [ItemStateChangedEvent     ] - Light_C_Corridor_Ceiling changed from NULL to ON
+2016-09-21 21:15:04.002 [ItemStateChangedEvent     ] - Light_Garden_Terrace changed from NULL to OFF
+2016-09-21 21:15:04.005 [ItemStateChangedEvent     ] - Heating_GF_Corridor changed from NULL to OFF
+2016-09-21 21:15:04.008 [ItemStateChangedEvent     ] - Heating_GF_Toilet changed from NULL to OFF
+2016-09-21 21:15:04.012 [ItemStateChangedEvent     ] - Heating_FF_Office changed from NULL to OFF
+2016-09-21 21:15:04.016 [ItemStateChangedEvent     ] - Heating_FF_Child changed from NULL to OFF
+2016-09-21 21:15:04.020 [ItemStateChangedEvent     ] - Heating_FF_Bed changed from NULL to OFF
+2016-09-21 21:15:04.024 [ItemStateChangedEvent     ] - Temperature_Setpoint changed from NULL to 22
+2016-09-21 21:15:04.027 [ItemStateChangedEvent     ] - Window_FF_Bed changed from NULL to OPEN
+2016-09-21 21:15:04.036 [GroupItemStateChangedEvent] - Lights changed from NULL to OFF through Light_GF_Living_Table
+2016-09-21 21:15:04.039 [GroupItemStateChangedEvent] - GF_Toilet changed from NULL to UNDEF through Temperature_GF_Toilet
+2016-09-21 21:15:04.042 [GroupItemStateChangedEvent] - Temperature changed from 19.9 to 20.3 through Temperature_FF_Office
+2016-09-21 21:15:04.047 [GroupItemStateChangedEvent] - Temperature changed from NULL to 18.2 through Temperature_GF_Corridor
+2016-09-21 21:15:04.052 [GroupItemStateChangedEvent] - Status changed from 18.2 to 19.6 through Temperature
+2016-09-21 21:15:04.055 [GroupItemStateChangedEvent] - Status changed from 19.9 to 20.0 through Temperature
+2016-09-21 21:15:04.071 [GroupItemStateChangedEvent] - Status changed from 20.0 to 19.9 through Temperature
+2016-09-21 21:15:04.076 [GroupItemStateChangedEvent] - Status changed from 20.3 to 20.1 through Temperature
+2016-09-21 21:15:04.088 [GroupItemStateChangedEvent] - Temperature changed from 20.1 to 20.0 through Temperature_FF_Bed
+2016-09-21 21:15:04.092 [GroupItemStateChangedEvent] - FF_Corridor changed from NULL to OFF through Light_FF_Corridor_Ceiling
+2016-09-21 21:15:04.095 [GroupItemStateChangedEvent] - Heating changed from NULL to OFF through Heating_GF_Corridor
+2016-09-21 21:15:04.098 [GroupItemStateChangedEvent] - Windows changed from NULL to OPEN through Window_GF_Frontdoor
+2016-09-21 21:15:04.101 [GroupItemStateChangedEvent] - Status changed from 20.4 to 20.1 through Temperature
+2016-09-21 21:15:04.106 [GroupItemStateChangedEvent] - Temperature changed from 20.1 to 20.4 through Temperature_GF_Kitchen
+2016-09-21 21:15:04.112 [GroupItemStateChangedEvent] - Status changed from NULL to 18.2 through Temperature
+2016-09-21 21:15:04.115 [GroupItemStateChangedEvent] - GF_Kitchen changed from NULL to UNDEF through Light_GF_Kitchen_Ceiling
+2016-09-21 21:15:04.122 [GroupItemStateChangedEvent] - Status changed from 19.6 to 19.9 through Temperature
+2016-09-21 21:15:04.126 [ItemStateChangedEvent     ] - Light_GF_Corridor_Ceiling changed from NULL to OFF
+2016-09-21 21:15:04.127 [GroupItemStateChangedEvent] - FF_Child changed from NULL to UNDEF through Temperature_FF_Child
+2016-09-21 21:15:04.129 [ItemStateChangedEvent     ] - Temperature_GF_Living changed from NULL to 20.6
+2016-09-21 21:15:04.129 [GroupItemStateChangedEvent] - Temperature changed from 20.4 to 20.7 through Temperature_FF_Bath
+2016-09-21 21:15:04.132 [ItemStateChangedEvent     ] - Light_C_Staircase changed from NULL to OFF
+2016-09-21 21:15:04.132 [ItemStateChangedEvent     ] - Light_GF_Kitchen_Table changed from NULL to OFF
+2016-09-21 21:15:04.135 [ItemStateChangedEvent     ] - Light_C_Washing_Ceiling changed from NULL to OFF
+2016-09-21 21:15:04.135 [ItemStateChangedEvent     ] - Light_GF_Corridor_Wardrobe changed from NULL to OFF
+2016-09-21 21:15:04.139 [ItemStateChangedEvent     ] - Light_GF_Toilet_Mirror changed from NULL to OFF
+2016-09-21 21:15:04.140 [ItemStateChangedEvent     ] - Window_GF_Frontdoor changed from NULL to OPEN
+2016-09-21 21:15:04.142 [ItemStateChangedEvent     ] - Light_FF_Bath_Ceiling changed from NULL to ON
+2016-09-21 21:15:04.144 [ItemStateChangedEvent     ] - Temperature_FF_Child changed from NULL to 19.2
+2016-09-21 21:15:04.146 [ItemStateChangedEvent     ] - Window_GF_Kitchen changed from NULL to CLOSED
+2016-09-21 21:15:04.147 [ItemStateChangedEvent     ] - Light_FF_Bath_Mirror changed from NULL to ON
+2016-09-21 21:15:04.150 [ItemStateChangedEvent     ] - Window_GF_Toilet changed from NULL to OPEN
+2016-09-21 21:15:04.151 [ItemStateChangedEvent     ] - Light_C_Workshop changed from NULL to ON
+2016-09-21 21:15:04.153 [ItemStateChangedEvent     ] - Window_FF_Office_Window changed from NULL to CLOSED
+2016-09-21 21:15:04.155 [ItemStateChangedEvent     ] - Light_Garden_Garage changed from NULL to OFF
+2016-09-21 21:15:04.156 [ItemStateChangedEvent     ] - Window_FF_Office_Door changed from NULL to CLOSED
+2016-09-21 21:15:04.158 [ItemStateChangedEvent     ] - Heating_GF_Living changed from NULL to OFF
+2016-09-21 21:15:04.160 [ItemStateChangedEvent     ] - Garage_Door changed from NULL to CLOSED
+2016-09-21 21:15:04.163 [ItemStateChangedEvent     ] - Heating_GF_Kitchen changed from NULL to OFF
+2016-09-21 21:15:04.165 [ItemStateChangedEvent     ] - Temperature_GF_Living changed from 20.6 to 18.4
+2016-09-21 21:15:04.166 [ItemStateChangedEvent     ] - Heating_FF_Bath changed from NULL to OFF
+2016-09-21 21:15:04.169 [ItemStateChangedEvent     ] - Window_GF_Living changed from NULL to CLOSED
+2016-09-21 21:15:04.170 [ItemStateChangedEvent     ] - Temperature_FF_Bath changed from 19.5 to 21.3
+2016-09-21 21:15:04.173 [ItemStateChangedEvent     ] - Window_FF_Bath changed from NULL to CLOSED
+2016-09-21 21:15:04.173 [ItemStateChangedEvent     ] - Temperature_FF_Office changed from 22.4 to 22.5
+2016-09-21 21:15:04.176 [ItemStateChangedEvent     ] - Temperature_FF_Bed changed from 19.0 to 22.3
+2016-09-21 21:15:04.178 [ItemStateChangedEvent     ] - Temperature_FF_Child changed from 19.2 to 18.8
+2016-09-21 21:15:04.180 [ItemStateChangedEvent     ] - DemoLocation changed from NULL to 52.5200066,13.4049540
+2016-09-21 21:15:04.183 [ItemStateChangedEvent     ] - Wifi_Level changed from 1 to 2
+2016-09-21 21:15:04.185 [ItemStateChangedEvent     ] - Temperature_GF_Corridor changed from 18.2 to 21.4
+2016-09-21 21:15:04.187 [GroupItemStateChangedEvent] - Status changed from 20.0 to 20.4 through Temperature
+2016-09-21 21:15:04.188 [ItemStateChangedEvent     ] - Temperature_GF_Toilet changed from 21.0 to 21.2
+2016-09-21 21:15:04.192 [GroupItemStateChangedEvent] - Temperature changed from 20.4 to 20.1 through Temperature_GF_Living
+2016-09-21 21:15:04.192 [ItemStateChangedEvent     ] - Temperature_GF_Kitchen changed from 20.0 to 22.4
+2016-09-21 21:15:04.196 [GroupItemStateChangedEvent] - Temperature changed from 20.0 to 20.4 through Temperature_GF_Corridor
+2016-09-21 21:15:04.196 [GroupItemStateChangedEvent] - Status changed from 20.4 to 20.7 through Temperature
+2016-09-21 21:15:04.199 [GroupItemStateChangedEvent] - Status changed from 20.6 to 21.0 through Temperature
+2016-09-21 21:15:04.199 [GroupItemStateChangedEvent] - Status changed from 20.7 to 20.6 through Temperature
+2016-09-21 21:15:04.202 [GroupItemStateChangedEvent] - Status changed from 20.1 to 20.4 through Temperature
+2016-09-21 21:15:04.204 [GroupItemStateChangedEvent] - Temperature changed from 20.7 to 20.6 through Temperature_FF_Child
+2016-09-21 21:15:04.207 [GroupItemStateChangedEvent] - Temperature changed from 20.6 to 21.0 through Temperature_FF_Bed
+2016-09-21 21:15:04.279 [ThingAddedEvent           ] - Thing 'yahooweather:weather:berlin' has been added.
+2016-09-21 21:15:04.418 [hingStatusInfoChangedEvent] - 'yahooweather:weather:berlin' changed from UNINITIALIZED to INITIALIZING
+2016-09-21 21:15:04.431 [hingStatusInfoChangedEvent] - 'yahooweather:weather:berlin' changed from INITIALIZING to ONLINE
+2016-09-21 21:15:05.949 [ThingAddedEvent           ] - Thing 'astro:sun:home' has been added.
+2016-09-21 21:15:05.974 [ThingAddedEvent           ] - Thing 'astro:moon:home' has been added.
+2016-09-21 21:15:06.111 [GroupItemStateChangedEvent] - Weather changed from NULL to UNDEF through Weather_Temperature
+2016-09-21 21:15:06.113 [GroupItemStateChangedEvent] - Weather_Chart changed from NULL to UNDEF through Weather_Temperature
+2016-09-21 21:15:06.117 [ItemStateChangedEvent     ] - Weather_Temperature changed from NULL to 15
+2016-09-21 21:15:06.138 [ThingUpdatedEvent         ] - Thing 'yahooweather:weather:berlin' has been updated.
+2016-09-21 21:15:06.150 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from NULL to 2016-09-21T21:15:06.129+0000
+2016-09-21 21:15:06.188 [ItemStateChangedEvent     ] - Weather_Temp_Max changed from NULL to 15
+2016-09-21 21:15:06.226 [ItemStateChangedEvent     ] - Weather_Temp_Min changed from NULL to 15
+2016-09-21 21:15:06.229 [GroupItemStateChangedEvent] - Weather_Chart changed from UNDEF to 15 through Weather_Temp_Min
+2016-09-21 21:15:06.229 [GroupItemStateChangedEvent] - Weather changed from UNDEF to 15 through Weather_Temp_Min
+2016-09-21 21:15:06.292 [hingStatusInfoChangedEvent] - 'astro:sun:home' changed from UNINITIALIZED to INITIALIZING
+2016-09-21 21:15:06.314 [hingStatusInfoChangedEvent] - 'astro:moon:home' changed from UNINITIALIZED to INITIALIZING
+2016-09-21 21:15:06.552 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-09-21T21:15:06.129+0000 to 2016-09-21T21:15:06.508+0000
+2016-09-21 21:15:06.672 [hingStatusInfoChangedEvent] - 'astro:sun:home' changed from INITIALIZING to ONLINE
+2016-09-21 21:15:06.674 [hingStatusInfoChangedEvent] - 'astro:moon:home' changed from INITIALIZING to ONLINE
+2016-09-21 21:15:07.240 [ThingUpdatedEvent         ] - Thing 'astro:sun:home' has been updated.
+2016-09-21 21:15:07.250 [ThingUpdatedEvent         ] - Thing 'astro:moon:home' has been updated.
+2016-09-21 21:15:07.280 [ThingAddedEvent           ] - Thing 'ntp:ntp:demo' has been added.
+2016-09-21 21:15:07.342 [hingStatusInfoChangedEvent] - 'ntp:ntp:demo' changed from UNINITIALIZED to INITIALIZING
+2016-09-21 21:15:07.492 [hingStatusInfoChangedEvent] - 'ntp:ntp:demo' changed from INITIALIZING to ONLINE
+2016-09-21 21:15:07.505 [ItemStateChangedEvent     ] - CurrentDate changed from NULL to 2016-09-21T21:15:07.472+0000
+2016-09-21 21:15:08.297 [ThingUpdatedEvent         ] - Thing 'ntp:ntp:demo' has been updated.
+2016-09-21 21:15:08.329 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-09-21T21:15:07.472+0000 to 2016-09-21T21:15:08.310+0000
+2016-09-21 21:15:08.455 [InboxAddedEvent           ] - Discovery Result with UID 'ntp:ntp:local' has been added.
+2016-09-21 21:15:09.309 [ItemStateChangedEvent     ] - Moon_Phase changed from NULL to WANING_GIBBOUS
+2016-09-21 21:15:09.320 [ItemStateChangedEvent     ] - Moon_Azimuth changed from NULL to 75.82
+2016-09-21 21:15:09.327 [ItemStateChangedEvent     ] - Sunrise_Time changed from NULL to 2016-09-21T04:52:00.000+0000
+2016-09-21 21:15:09.335 [ItemStateChangedEvent     ] - Sunset_Time changed from NULL to 2016-09-21T17:06:00.000+0000
+2016-09-21 21:15:09.338 [ItemStateChangedEvent     ] - Sun_Azimuth changed from NULL to 328.36
+2016-09-21 21:15:09.341 [ItemStateChangedEvent     ] - Moon_Elevation changed from NULL to 9.74
+2016-09-21 21:15:09.343 [ItemStateChangedEvent     ] - Sun_Elevation changed from NULL to -32.73
+2016-09-21 21:15:19.688 [InboxAddedEvent           ] - Discovery Result with UID 'avmfritz:fritzbox:192_168_178_254' has been added.
+2016-09-21 21:15:20.025 [ItemStateChangedEvent     ] - Wifi_Level changed from 2 to 0
+2016-09-21 21:15:40.035 [ItemStateChangedEvent     ] - Wifi_Level changed from 0 to 3
+2016-09-21 21:16:00.026 [ItemStateChangedEvent     ] - Wifi_Level changed from 3 to 1
+2016-09-21 21:16:06.668 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-09-21T21:15:06.508+0000 to 2016-09-21T21:16:06.641+0000
+2016-09-21 21:16:08.295 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-09-21T21:15:08.310+0000 to 2016-09-21T21:16:08.281+0000
+2016-09-21 21:16:20.027 [ItemStateChangedEvent     ] - Wifi_Level changed from 1 to 0
+2016-09-21 21:16:40.028 [ItemStateChangedEvent     ] - Wifi_Level changed from 0 to 2
+2016-09-21 21:17:00.026 [ItemStateChangedEvent     ] - Wifi_Level changed from 2 to 1
+2016-09-21 21:17:06.866 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-09-21T21:16:06.641+0000 to 2016-09-21T21:17:06.851+0000
+2016-09-21 21:17:08.294 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-09-21T21:16:08.281+0000 to 2016-09-21T21:17:08.281+0000
+2016-09-21 21:17:20.040 [ItemStateChangedEvent     ] - Wifi_Level changed from 1 to 3
+2016-09-21 21:17:40.034 [ItemStateChangedEvent     ] - Wifi_Level changed from 3 to 2
+2016-09-21 21:18:00.042 [ItemStateChangedEvent     ] - Wifi_Level changed from 2 to 0
+2016-09-21 21:18:06.834 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-09-21T21:17:06.851+0000 to 2016-09-21T21:18:06.805+0000
+2016-09-21 21:18:08.298 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-09-21T21:17:08.281+0000 to 2016-09-21T21:18:08.281+0000
+2016-09-21 21:18:20.029 [ItemStateChangedEvent     ] - Wifi_Level changed from 0 to 2
+2016-09-21 21:18:40.031 [ItemStateChangedEvent     ] - Wifi_Level changed from 2 to 1
+2016-09-21 21:19:00.033 [ItemStateChangedEvent     ] - Wifi_Level changed from 1 to 3
+2016-09-21 21:19:06.844 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-09-21T21:18:06.805+0000 to 2016-09-21T21:19:06.829+0000
+2016-09-21 21:19:08.296 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-09-21T21:18:08.281+0000 to 2016-09-21T21:19:08.281+0000
+2016-09-21 21:19:20.037 [ItemStateChangedEvent     ] - Wifi_Level changed from 3 to 2
+2016-09-21 23:20:18.672 [ItemChannelLinkAddedEvent ] - Link 'Weather_Temperature-yahooweather:weather:berlin:temperature' has been added.
+2016-09-21 23:20:18.706 [ItemChannelLinkAddedEvent ] - Link 'Sun_Elevation-astro:sun:home:position#elevation' has been added.
+2016-09-21 23:20:18.710 [ItemChannelLinkAddedEvent ] - Link 'Sun_Azimuth-astro:sun:home:position#azimuth' has been added.
+2016-09-21 23:20:18.714 [ItemChannelLinkAddedEvent ] - Link 'Sunrise_Time-astro:sun:home:rise#start' has been added.
+2016-09-21 23:20:18.718 [ItemChannelLinkAddedEvent ] - Link 'Sunset_Time-astro:sun:home:set#start' has been added.
+2016-09-21 23:20:18.721 [ItemChannelLinkAddedEvent ] - Link 'Moon_Elevation-astro:moon:home:position#elevation' has been added.
+2016-09-21 23:20:18.723 [ItemChannelLinkAddedEvent ] - Link 'Moon_Azimuth-astro:moon:home:position#azimuth' has been added.
+2016-09-21 23:20:18.726 [ItemChannelLinkAddedEvent ] - Link 'Moon_Phase-astro:moon:home:phase#name' has been added.
+2016-09-21 23:20:18.729 [ItemChannelLinkAddedEvent ] - Link 'CurrentDate-ntp:ntp:demo:dateTime' has been added.
+2016-09-21 23:20:48.398 [ItemStateChangedEvent     ] - Wifi_Level changed from NULL to 3
+2016-09-21 23:20:48.401 [ItemStateChangedEvent     ] - Light_GF_Living_Table changed from NULL to 100
+2016-09-21 23:20:48.432 [ItemStateChangedEvent     ] - Light_GF_Corridor_Ceiling changed from NULL to ON
+2016-09-21 23:20:48.438 [GroupItemStateChangedEvent] - gFF changed from NULL to UNDEF through FF_Office
+2016-09-21 23:20:48.443 [GroupItemStateChangedEvent] - FF_Office changed from NULL to UNDEF through Wifi_Level
+2016-09-21 23:20:48.464 [GroupItemStateChangedEvent] - GF_Living changed from NULL to UNDEF through Light_GF_Living_Table
+2016-09-21 23:20:48.468 [GroupItemStateChangedEvent] - Lights changed from NULL to ON through Light_GF_Living_Table
+2016-09-21 23:20:48.475 [GroupItemStateChangedEvent] - GF_Corridor changed from NULL to UNDEF through Light_GF_Corridor_Ceiling
+2016-09-21 23:20:48.480 [ItemStateChangedEvent     ] - Wifi_Level changed from 3 to 1
+2016-09-21 23:20:48.483 [ItemStateChangedEvent     ] - Light_GF_Kitchen_Ceiling changed from NULL to OFF
+2016-09-21 23:20:48.488 [ItemStateChangedEvent     ] - Light_GF_Kitchen_Table changed from NULL to OFF
+2016-09-21 23:20:48.493 [ItemStateChangedEvent     ] - Light_GF_Corridor_Wardrobe changed from NULL to ON
+2016-09-21 23:20:48.498 [ItemStateChangedEvent     ] - Light_GF_Toilet_Ceiling changed from NULL to OFF
+2016-09-21 23:20:48.503 [ItemStateChangedEvent     ] - Light_FF_Office_Ceiling changed from NULL to OFF
+2016-09-21 23:20:48.517 [ItemStateChangedEvent     ] - Light_FF_Child_Ceiling changed from NULL to OFF
+2016-09-21 23:20:48.536 [GroupItemStateChangedEvent] - gGF changed from NULL to UNDEF through GF_Living
+2016-09-21 23:20:48.539 [GroupItemStateChangedEvent] - GF_Kitchen changed from NULL to UNDEF through Light_GF_Kitchen_Ceiling
+2016-09-21 23:20:48.543 [GroupItemStateChangedEvent] - GF_Toilet changed from NULL to UNDEF through Light_GF_Toilet_Ceiling
+2016-09-21 23:20:48.546 [ItemStateChangedEvent     ] - Light_GF_Toilet_Mirror changed from NULL to OFF
+2016-09-21 23:20:48.550 [ItemStateChangedEvent     ] - Light_FF_Bath_Ceiling changed from NULL to ON
+2016-09-21 23:20:48.553 [ItemStateChangedEvent     ] - Light_FF_Corridor_Ceiling changed from NULL to OFF
+2016-09-21 23:20:48.572 [ItemStateChangedEvent     ] - Light_C_Corridor_Ceiling changed from NULL to OFF
+2016-09-21 23:20:48.577 [ItemStateChangedEvent     ] - Light_C_Staircase changed from NULL to ON
+2016-09-21 23:20:48.584 [ItemStateChangedEvent     ] - Light_FF_Bath_Mirror changed from NULL to OFF
+2016-09-21 23:20:48.588 [ItemStateChangedEvent     ] - Light_FF_Bed_Ceiling changed from NULL to ON
+2016-09-21 23:20:48.596 [GroupItemStateChangedEvent] - FF_Bath changed from NULL to UNDEF through Light_FF_Bath_Ceiling
+2016-09-21 23:20:48.604 [GroupItemStateChangedEvent] - FF_Corridor changed from NULL to OFF through Light_FF_Corridor_Ceiling
+2016-09-21 23:20:48.607 [GroupItemStateChangedEvent] - gC changed from NULL to UNDEF through Light_C_Corridor_Ceiling
+2016-09-21 23:20:48.613 [GroupItemStateChangedEvent] - Garden changed from NULL to UNDEF through Light_Garden_Garage
+2016-09-21 23:20:48.619 [GroupItemStateChangedEvent] - FF_Child changed from NULL to UNDEF through Light_FF_Child_Ceiling
+2016-09-21 23:20:48.622 [GroupItemStateChangedEvent] - FF_Bed changed from NULL to UNDEF through Light_FF_Bed_Ceiling
+2016-09-21 23:20:48.631 [ItemStateChangedEvent     ] - Light_C_Washing_Ceiling changed from NULL to OFF
+2016-09-21 23:20:48.634 [ItemStateChangedEvent     ] - Light_Garden_Garage changed from NULL to OFF
+2016-09-21 23:20:48.640 [ItemStateChangedEvent     ] - Light_C_Workshop changed from NULL to OFF
+2016-09-21 23:20:48.644 [ItemStateChangedEvent     ] - Heating_GF_Corridor changed from NULL to ON
+2016-09-21 23:20:48.648 [ItemStateChangedEvent     ] - Heating_GF_Toilet changed from NULL to OFF
+2016-09-21 23:20:48.654 [ItemStateChangedEvent     ] - Heating_GF_Living changed from NULL to OFF
+2016-09-21 23:20:48.662 [ItemStateChangedEvent     ] - Heating_GF_Kitchen changed from NULL to ON
+2016-09-21 23:20:48.668 [ItemStateChangedEvent     ] - Heating_FF_Bath changed from NULL to OFF
+2016-09-21 23:20:48.672 [ItemStateChangedEvent     ] - Light_Garden_Terrace changed from NULL to ON
+2016-09-21 23:20:48.681 [ItemStateChangedEvent     ] - Heating_FF_Office changed from NULL to OFF
+2016-09-21 23:20:48.690 [ItemStateChangedEvent     ] - Heating_FF_Bed changed from NULL to OFF
+2016-09-21 23:20:48.714 [GroupItemStateChangedEvent] - Heating changed from NULL to ON through Heating_GF_Corridor
+2016-09-21 23:20:48.736 [GroupItemStateChangedEvent] - Windows changed from NULL to CLOSED through Window_GF_Frontdoor
+2016-09-21 23:20:48.739 [ItemStateChangedEvent     ] - Heating_FF_Child changed from NULL to OFF
+2016-09-21 23:20:48.743 [ItemStateChangedEvent     ] - Window_GF_Kitchen changed from NULL to CLOSED
+2016-09-21 23:20:48.749 [ItemStateChangedEvent     ] - Window_GF_Living changed from NULL to OPEN
+2016-09-21 23:20:48.759 [ThingAddedEvent           ] - Thing 'ntp:ntp:demo' has been added.
+2016-09-21 23:20:48.767 [ItemStateChangedEvent     ] - Temperature_Setpoint changed from NULL to 22
+2016-09-21 23:20:48.772 [ItemStateChangedEvent     ] - Window_GF_Frontdoor changed from NULL to CLOSED
+2016-09-21 23:20:48.776 [ItemStateChangedEvent     ] - Window_GF_Toilet changed from NULL to OPEN
+2016-09-21 23:20:48.782 [GroupItemStateChangedEvent] - Windows changed from CLOSED to OPEN through Window_GF_Living
+2016-09-21 23:20:48.786 [ItemStateChangedEvent     ] - Window_FF_Bed changed from NULL to OPEN
+2016-09-21 23:20:48.789 [ItemStateChangedEvent     ] - Window_FF_Bath changed from NULL to CLOSED
+2016-09-21 23:20:48.795 [ItemStateChangedEvent     ] - Window_FF_Office_Window changed from NULL to OPEN
+2016-09-21 23:20:48.800 [ItemStateChangedEvent     ] - Window_FF_Office_Door changed from NULL to CLOSED
+2016-09-21 23:20:48.813 [ItemStateChangedEvent     ] - Garage_Door changed from NULL to OPEN
+2016-09-21 23:20:48.827 [ItemStateChangedEvent     ] - DemoLocation changed from NULL to 52.5200066,13.4049540
+2016-09-21 23:20:48.836 [GroupItemStateChangedEvent] - Temperature changed from NULL to 22.1 through Temperature_GF_Corridor
+2016-09-21 23:20:48.848 [GroupItemStateChangedEvent] - Status changed from NULL to 22.1 through Temperature
+2016-09-21 23:20:48.852 [ItemStateChangedEvent     ] - Temperature_GF_Corridor changed from NULL to 22.1
+2016-09-21 23:20:48.858 [ItemStateChangedEvent     ] - Temperature_GF_Toilet changed from NULL to 18.1
+2016-09-21 23:20:48.858 [GroupItemStateChangedEvent] - Temperature changed from 22.1 to 20.1 through Temperature_GF_Toilet
+2016-09-21 23:20:48.867 [GroupItemStateChangedEvent] - Status changed from 22.1 to 20.1 through Temperature
+2016-09-21 23:20:48.886 [GroupItemStateChangedEvent] - Temperature changed from 20.1 to 19.3 through Temperature_GF_Living
+2016-09-21 23:20:48.891 [GroupItemStateChangedEvent] - Status changed from 20.1 to 19.3 through Temperature
+2016-09-21 23:20:48.895 [ItemStateChangedEvent     ] - Temperature_GF_Living changed from NULL to 17.6
+2016-09-21 23:20:48.898 [ItemStateChangedEvent     ] - Temperature_GF_Kitchen changed from NULL to 21.9
+2016-09-21 23:20:48.899 [GroupItemStateChangedEvent] - Status changed from 19.3 to 19.9 through Temperature
+2016-09-21 23:20:48.902 [GroupItemStateChangedEvent] - Temperature changed from 19.3 to 19.9 through Temperature_GF_Kitchen
+2016-09-21 23:20:48.922 [ItemStateChangedEvent     ] - Temperature_FF_Bath changed from NULL to 19.9
+2016-09-21 23:20:48.924 [hingStatusInfoChangedEvent] - 'ntp:ntp:demo' changed from UNINITIALIZED to INITIALIZING
+2016-09-21 23:20:48.945 [ItemStateChangedEvent     ] - Temperature_FF_Office changed from NULL to 19.1
+2016-09-21 23:20:48.947 [GroupItemStateChangedEvent] - Status changed from 19.9 to 19.8 through Temperature
+2016-09-21 23:20:48.949 [GroupItemStateChangedEvent] - Temperature changed from 19.9 to 19.8 through Temperature_FF_Office
+2016-09-21 23:20:48.960 [GroupItemStateChangedEvent] - Temperature changed from 19.8 to 20.1 through Temperature_FF_Child
+2016-09-21 23:20:48.963 [ItemStateChangedEvent     ] - Temperature_FF_Child changed from NULL to 22.2
+2016-09-21 23:20:48.967 [GroupItemStateChangedEvent] - Status changed from 19.8 to 20.1 through Temperature
+2016-09-21 23:20:48.971 [ThingAddedEvent           ] - Thing 'yahooweather:weather:berlin' has been added.
+2016-09-21 23:20:48.989 [ItemStateChangedEvent     ] - Temperature_FF_Bed changed from NULL to 21.5
+2016-09-21 23:20:49.003 [GroupItemStateChangedEvent] - Status changed from 20.1 to 20.3 through Temperature
+2016-09-21 23:20:49.007 [GroupItemStateChangedEvent] - Temperature changed from 20.1 to 20.3 through Temperature_FF_Bed
+2016-09-21 23:20:49.156 [hingStatusInfoChangedEvent] - 'ntp:ntp:demo' changed from INITIALIZING to ONLINE
+2016-09-21 23:20:49.176 [ItemStateChangedEvent     ] - CurrentDate changed from NULL to 2016-09-21T23:20:49.118+0200
+2016-09-21 23:20:49.296 [hingStatusInfoChangedEvent] - 'yahooweather:weather:berlin' changed from INITIALIZING to ONLINE
+2016-09-21 23:20:49.299 [hingStatusInfoChangedEvent] - 'yahooweather:weather:berlin' changed from UNINITIALIZED to INITIALIZING
+2016-09-21 23:20:49.407 [ItemStateChangedEvent     ] - Wifi_Level changed from 1 to 2
+2016-09-21 23:20:49.630 [ThingUpdatedEvent         ] - Thing 'ntp:ntp:demo' has been updated.
+2016-09-21 23:20:49.670 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-09-21T23:20:49.118+0200 to 2016-09-21T23:20:49.650+0200
+2016-09-21 23:20:50.632 [ThingAddedEvent           ] - Thing 'astro:sun:home' has been added.
+2016-09-21 23:20:50.650 [ThingAddedEvent           ] - Thing 'astro:moon:home' has been added.
+2016-09-21 23:20:50.839 [hingStatusInfoChangedEvent] - 'astro:sun:home' changed from UNINITIALIZED to INITIALIZING
+2016-09-21 23:20:51.022 [hingStatusInfoChangedEvent] - 'astro:moon:home' changed from UNINITIALIZED to INITIALIZING
+2016-09-21 23:20:51.023 [hingStatusInfoChangedEvent] - 'astro:moon:home' changed from INITIALIZING to ONLINE
+2016-09-21 23:20:51.033 [hingStatusInfoChangedEvent] - 'astro:sun:home' changed from INITIALIZING to ONLINE
+2016-09-21 23:20:51.104 [ThingUpdatedEvent         ] - Thing 'yahooweather:weather:berlin' has been updated.
+2016-09-21 23:20:51.323 [GroupItemStateChangedEvent] - Weather_Chart changed from NULL to UNDEF through Weather_Temperature
+2016-09-21 23:20:51.323 [ItemStateChangedEvent     ] - Weather_Temperature changed from NULL to 15
+2016-09-21 23:20:51.326 [GroupItemStateChangedEvent] - Weather changed from NULL to UNDEF through Weather_Temperature
+2016-09-21 23:20:51.377 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from NULL to 2016-09-21T23:20:51.348+0200
+2016-09-21 23:20:51.401 [ItemStateChangedEvent     ] - Weather_Temp_Max changed from NULL to 15
+2016-09-21 23:20:51.403 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-09-21T23:20:51.348+0200 to 2016-09-21T23:20:51.375+0200
+2016-09-21 23:20:51.416 [GroupItemStateChangedEvent] - Weather changed from UNDEF to 15 through Weather_Temp_Min
+2016-09-21 23:20:51.419 [ItemStateChangedEvent     ] - Weather_Temp_Min changed from NULL to 15
+2016-09-21 23:20:51.422 [GroupItemStateChangedEvent] - Weather_Chart changed from UNDEF to 15 through Weather_Temp_Min
+2016-09-21 23:20:51.644 [ItemStateChangedEvent     ] - DemoSwitch changed from NULL to OFF
+2016-09-21 23:20:52.182 [ThingUpdatedEvent         ] - Thing 'astro:sun:home' has been updated.
+2016-09-21 23:20:52.197 [ThingUpdatedEvent         ] - Thing 'astro:moon:home' has been updated.
+2016-09-21 23:20:54.327 [ItemStateChangedEvent     ] - Moon_Phase changed from NULL to WANING_GIBBOUS
+2016-09-21 23:20:54.354 [ItemStateChangedEvent     ] - Sunrise_Time changed from NULL to 2016-09-21T06:52:00.000+0200
+2016-09-21 23:20:54.356 [ItemStateChangedEvent     ] - Moon_Azimuth changed from NULL to 76.87
+2016-09-21 23:20:54.359 [ItemStateChangedEvent     ] - Sunset_Time changed from NULL to 2016-09-21T19:06:00.000+0200
+2016-09-21 23:20:54.360 [ItemStateChangedEvent     ] - Moon_Elevation changed from NULL to 10.57
+2016-09-21 23:20:54.362 [ItemStateChangedEvent     ] - Sun_Elevation changed from NULL to -33.18
+2016-09-21 23:20:54.363 [ItemStateChangedEvent     ] - Sun_Azimuth changed from NULL to 329.99
+2016-09-21 23:21:00.046 [ItemStateChangedEvent     ] - Wifi_Level changed from 2 to 0
+2016-09-21 23:21:18.240 [ItemCommandEvent          ] - Item 'CurrentDate' received command 2016-09-21T23:20:49.650+0200
+2016-09-21 23:21:18.315 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-09-21T23:20:49.650+0200 to 2016-09-21T23:21:18.300+0200
+2016-09-21 23:21:20.024 [ItemStateChangedEvent     ] - Wifi_Level changed from 0 to 1
+2016-09-21 23:21:49.630 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-09-21T23:21:18.300+0200 to 2016-09-21T23:21:49.611+0200
+2016-09-21 23:21:51.849 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-09-21T23:20:51.375+0200 to 2016-09-21T23:21:51.834+0200
+2016-09-21 23:22:00.027 [ItemStateChangedEvent     ] - Wifi_Level changed from 1 to 0
+2016-09-21 23:22:20.032 [ItemStateChangedEvent     ] - Wifi_Level changed from 0 to 2
+2016-09-21 23:22:40.037 [ItemStateChangedEvent     ] - Wifi_Level changed from 2 to 0
+2016-09-21 23:22:49.633 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-09-21T23:21:49.611+0200 to 2016-09-21T23:22:49.611+0200
+2016-09-21 23:22:51.891 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-09-21T23:21:51.834+0200 to 2016-09-21T23:22:51.877+0200
+2016-09-21 23:23:40.030 [ItemStateChangedEvent     ] - Wifi_Level changed from 0 to 3
+2016-09-21 23:23:46.963 [InboxAddedEvent           ] - Discovery Result with UID 'avmfritz:fritzbox:192_168_178_1' has been added.
+2016-09-21 23:23:49.628 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-09-21T23:22:49.611+0200 to 2016-09-21T23:23:49.611+0200
+2016-09-21 23:23:52.037 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-09-21T23:22:51.877+0200 to 2016-09-21T23:23:52.025+0200
+2016-09-21 23:24:00.034 [ItemStateChangedEvent     ] - Wifi_Level changed from 3 to 1
+2016-09-21 23:24:20.032 [ItemStateChangedEvent     ] - Wifi_Level changed from 1 to 3
+2016-09-21 23:24:40.026 [ItemStateChangedEvent     ] - Wifi_Level changed from 3 to 0
+2016-09-21 23:24:49.632 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-09-21T23:23:49.611+0200 to 2016-09-21T23:24:49.611+0200
+2016-09-21 23:24:52.021 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-09-21T23:23:52.025+0200 to 2016-09-21T23:24:52.007+0200
+2016-09-21 23:25:00.025 [ItemStateChangedEvent     ] - Wifi_Level changed from 0 to 1
+2016-09-21 23:25:00.072 [ItemStateChangedEvent     ] - Temperature_GF_Corridor changed from 22.1 to 20.8
+2016-09-21 23:25:00.076 [GroupItemStateChangedEvent] - Temperature changed from 20.3 to 20.1 through Temperature_GF_Corridor
+2016-09-21 23:25:00.077 [GroupItemStateChangedEvent] - Status changed from 20.3 to 20.1 through Temperature
+2016-09-21 23:25:00.100 [ItemStateChangedEvent     ] - Temperature_GF_Toilet changed from 18.1 to 17.9
+2016-09-21 23:25:00.134 [ItemStateChangedEvent     ] - Temperature_GF_Living changed from 17.6 to 18.5
+2016-09-21 23:25:00.137 [GroupItemStateChangedEvent] - Temperature changed from 20.1 to 20.2 through Temperature_GF_Living
+2016-09-21 23:25:00.139 [GroupItemStateChangedEvent] - Status changed from 20.1 to 20.2 through Temperature
+2016-09-21 23:25:00.164 [ItemStateChangedEvent     ] - Temperature_GF_Kitchen changed from 21.9 to 18.0
+2016-09-21 23:25:00.166 [GroupItemStateChangedEvent] - Temperature changed from 20.2 to 19.7 through Temperature_GF_Kitchen
+2016-09-21 23:25:00.169 [GroupItemStateChangedEvent] - Status changed from 20.2 to 19.7 through Temperature
+2016-09-21 23:25:00.187 [ItemStateChangedEvent     ] - Temperature_FF_Bath changed from 19.9 to 22.4
+2016-09-21 23:25:00.187 [GroupItemStateChangedEvent] - Temperature changed from 19.7 to 20.1 through Temperature_FF_Bath
+2016-09-21 23:25:00.190 [GroupItemStateChangedEvent] - Status changed from 19.7 to 20.1 through Temperature
+2016-09-21 23:25:00.209 [GroupItemStateChangedEvent] - Temperature changed from 20.1 to 20.0 through Temperature_FF_Office
+2016-09-21 23:25:00.214 [GroupItemStateChangedEvent] - Status changed from 20.1 to 20.0 through Temperature
+2016-09-21 23:25:00.216 [ItemStateChangedEvent     ] - Temperature_FF_Office changed from 19.1 to 18.7
+2016-09-21 23:25:00.229 [ItemStateChangedEvent     ] - Temperature_FF_Child changed from 22.2 to 22.4
+2016-09-21 23:25:00.256 [ItemStateChangedEvent     ] - Temperature_FF_Bed changed from 21.5 to 18.4
+2016-09-21 23:25:00.259 [GroupItemStateChangedEvent] - Temperature changed from 20.0 to 19.6 through Temperature_FF_Bed
+2016-09-21 23:25:00.261 [GroupItemStateChangedEvent] - Status changed from 20.0 to 19.6 through Temperature
+2016-09-21 23:25:40.024 [ItemStateChangedEvent     ] - Wifi_Level changed from 1 to 0
+2016-09-21 23:25:49.628 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-09-21T23:24:49.611+0200 to 2016-09-21T23:25:49.611+0200
+2016-09-21 23:25:51.635 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-09-21T23:24:52.007+0200 to 2016-09-21T23:25:51.614+0200
+2016-09-21 23:26:00.029 [ItemStateChangedEvent     ] - Wifi_Level changed from 0 to 2
+2016-09-21 23:26:20.026 [ItemStateChangedEvent     ] - Wifi_Level changed from 2 to 1
+2016-09-21 23:26:40.025 [ItemStateChangedEvent     ] - Wifi_Level changed from 1 to 3
+2016-09-21 23:26:49.629 [ItemStateChangedEvent     ] - CurrentDate changed from 2016-09-21T23:25:49.611+0200 to 2016-09-21T23:26:49.611+0200
+2016-09-21 23:26:51.868 [ItemStateChangedEvent     ] - Weather_LastUpdate changed from 2016-09-21T23:25:51.614+0200 to 2016-09-21T23:26:51.856+0200
+2016-09-21 23:27:00.026 [ItemStateChangedEvent     ] - Wifi_Level changed from 3 to 1
+2016-09-21 23:27:20.018 [ItemStateChangedEvent     ] - Wifi_Level changed from 1 to 2
