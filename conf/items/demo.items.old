@@ -95,7 +95,7 @@ Contact Window_FF_Office_Door   "Balcony Door [MAP(en.map):%s]"     (FF_Office, 
 Contact Garage_Door             "Garage Door [MAP(en.map):%s]"      (Garden, Windows)
 
 Group Weather_Chart
-Number Weather_Temperature      "Outside Temperature [%.1f °C]" <temperature> (Weather, Weather_Chart) { channel="yahooweather:weather:paderborn:temperature" }
+Number Weather_Temperature      "Outside Temperature [%.1f °C]" <temperature> (Weather, Weather_Chart) { channel="yahooweather:weather:berlin:temperature" }
 Number Weather_Temp_Max         "Todays Maximum [%.1f °C]"      <temperature> (Weather, Weather_Chart)
 Number Weather_Temp_Min         "Todays Minimum [%.1f °C]"      <temperature> (Weather, Weather_Chart)
 Number Weather_Chart_Period     "Chart Period"
@@ -121,23 +121,5 @@ Dimmer Volume                   "Volume [%.1f %%]"
 Number Temperature_Setpoint     "Temperature [%.1f °C]" <temperature>
 Location DemoLocation           "Brandenburg Gate Berlin"
 Number Wifi_Level               "Wifi Level [%d/4]"     <signal>        (FF_Office)
-
-/* Office */
-Group Arbeitszimmer <office> 	(aZ)
-
-Number Steckdose_KevinPCstate { exec="<[sudo sispmctl -nqg 1:60000:REGEX((.*))]"  }
-Switch Steckdose_KevinPC "Strom Kevin's PC" (Arbeitszimmer, PC) { exec="OFF:sudo sispmctl -f 1, ON:sudo sispmctl -o 1" }
-Number Steckdose_NASstate { exec="<[sudo sispmctl -nqg 2:60000:REGEX((.*))]"  }
-Switch Steckdose_NAS "NAS" (Arbeitszimmer, NAS) { exec="OFF:sudo sispmctl -f 2, ON:sudo sispmctl -o 2" }
-Number Steckdose_Lampestate { exec="<[sudo sispmctl -nqg 3:60000:REGEX((.*))]"  }
-Switch Steckdose_Lampe "Lampe" (Arbeitszimmer, Lights) { exec="OFF:sudo sispmctl -f 3, ON:sudo sispmctl -o 3" }
-Number Steckdose_Druckerstate { exec="<[sudo sispmctl -nqg 4:60000:REGEX((.*))]"  }
-Switch Steckdose_Drucker "Strom Drucker" (Arbeitszimmer, Printer) { exec="OFF:sudo sispmctl -f 4, ON:sudo sispmctl -o 4" }
-
-Number Temperature_FF_Office 	"Temperature [%.1f °C]"	<temperature>	(Temperature, Arbeitszimmer) { exec="<[sudo python /home/pi/scripts/office.py temp:60000:REGEX((.*))]" }
-Number Hum_FF_Office 	"Feuchtigkeit [%.1f %%]"	<temperature>	(Temperature, Arbeitszimmer) { exec="<[sudo python /home/pi/scripts/office.py hum:60000:REGEX((.*))]" }
-
-/* Geräte */
-Number Raspberry_Temperature "CPU-Temperatur [%.1f °C]" <temperature> (System_Stats) { exec="<[/home/pi/openhab/scripts/temp.sh:60000:REGEX((.*))]" }
 
 // vim: syntax=Xtend syntax=openhab

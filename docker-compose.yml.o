@@ -1,17 +1,15 @@
 ---
 openhab:
-  image: 'kevintaron/myopenhab2-arm:latest'
+  image: 'openhab/openhab:armhf-offline'
   restart: always
-  container_name: openhab
   ports:
     - "8080:8080"
     - "8443:8443"
     - "5555:5555"
+  net: "host"
   volumes:
     - '/etc/localtime:/etc/localtime:ro'
     - '/etc/timezone:/etc/timezone:ro'
     - '/home/pi/openhab/userdata:/openhab/userdata'
     - '/home/pi/openhab/conf:/openhab/conf'
-    - '/dev/bus/usb:/dev/bus/usb'
   command: "server"
-  privileged: true

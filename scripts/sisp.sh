@@ -1,0 +1,1 @@
+sudo docker exec sisp sispmctl -f 2
