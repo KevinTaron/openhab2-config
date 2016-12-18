@@ -1,0 +1,8 @@
+/* Schlafzimmer */
+Group Schlafzimmer <bedroom> (sZ)
+
+Switch Steckdose_sz_tv "Strom TV Konsole" (Steckdose, Schlafzimmer) { channel="zwave:device:controller:node2:switch_binary" }
+Number Steckdose_sz_watt "Verbrauch (aktuell) [%.1f Watt]" <currentpower> (Schlafzimmer) { channel="zwave:device:controller:node2:meter_watts" }
+Number Steckdose_sz_kwh "Verbrauch (Gesamt) [%.1f kwh]" <overallpower> (Schlafzimmer) { channel="zwave:device:controller:node2:meter_kwh" }
+Number Steckdose_sz_wattKosten "Kosten (Aktuell pro h) [%.3f Euro]" <currentpowerCost> (Schlafzimmer) { }
+Number Steckdose_sz_kwhKosten "Kosten (Gesamt) [%.2f Euro]" <overallpowerCost> (Schlafzimmer) { }

@@ -2,10 +2,13 @@
 Strategies {
 	// for rrd charts, we need a cron strategy
 	everyMinute : "0 * * * * ?"
+	everyDay  : "0 0 0 * * ?"
+	everyHour : "0 0 * * * ?"
 }
 
 Items {
 	DemoSwitch,NoOfLights,Window_GF_Toilet,Heating* : strategy = everyChange, everyMinute, restoreOnStartup
+	* : strategy = everyChange, everyDay, restoreOnStartup
 	
 	// let's only store temperature values in rrd
 	Temperature*,Weather_Chart* : strategy = everyMinute, restoreOnStartup

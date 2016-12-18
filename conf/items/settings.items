@@ -1,0 +1,15 @@
+Group Weather_Chart
+Number Weather_Temperature      "Aussen Temperature [%.1f °C]" <temperature> (Weather, Weather_Chart) { channel="yahooweather:weather:paderborn:temperature" }
+Number Weather_Temp_Max         "Heute Maximum [%.1f °C]"      <temperature> (Weather, Weather_Chart)
+Number Weather_Temp_Min         "Heute Minimum [%.1f °C]"      <temperature> (Weather, Weather_Chart)
+Number Weather_Chart_Period     "Chart Period"
+DateTime Weather_LastUpdate     "Letztes Update [%1$ta %1$tR]"     <clock>
+Number Sun_Elevation            "Sonnen Elevation"                 <sun>       { channel = "astro:sun:home:position#elevation" }
+Number Sun_Azimuth              "Sonnen Azimuth"                   <sun>       { channel = "astro:sun:home:position#azimuth" }
+DateTime Sunrise_Time           "Sonnenaufgang [%1$tH:%1$tM]"         <sunrise>   { channel = "astro:sun:home:rise#start" }
+DateTime Sunset_Time            "Sonnenuntergang [%1$tH:%1$tM]"          <sunset>    { channel = "astro:sun:home:set#start" }
+Number Moon_Elevation           "Mond Elevation"                <moon>      { channel = "astro:moon:home:position#elevation" }
+Number Moon_Azimuth             "Mond Azimuth"                  <moon>      { channel = "astro:moon:home:position#azimuth" }
+String Moon_Phase               "Mond Phase"                    <moon>      { channel = "astro:moon:home:phase#name" }
+
+// vim: syntax=Xtend syntax=openhab

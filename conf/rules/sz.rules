@@ -1,0 +1,20 @@
+// Creates an item that stores the last update time of this item
+rule "Update Cost"
+when
+	System started or
+	Time cron "0 0/5 * * * ?" or
+  	Item Steckdose_sz_kwh received update
+then
+  postUpdate(Steckdose_sz_kwhKosten, (Steckdose_sz_kwh.state as DecimalType) * 0.28)
+end
+
+rule "Update Cost SZ Watt"
+when
+  System started or
+  Time cron "0 0/5 * * * ?" or
+  Item Steckdose_sz_watt received update
+then
+  postUpdate(Steckdose_sz_wattKosten, (Steckdose_sz_watt.state as DecimalType).floatValue() / 1000 * 0.28)
+end
+
+// vim: syntax=Xtend syntax=openhab

@@ -1,0 +1,65 @@
+rule "Item Steckdose_KevinPC"
+	when
+		Item Steckdose_KevinPC received command
+	then
+        if ((receivedCommand==ON) || (receivedCommand==OFF)) {
+            if(receivedCommand == OFF) executeCommandLine("sudo sispmctl -f 1") 
+    		if(receivedCommand == ON) executeCommandLine("sudo sispmctl -o 1") 
+    
+    	}
+end
+
+rule "Item Steckdose_NAS"
+    when
+        Item Steckdose_NAS received command
+    then
+        if ((receivedCommand==ON) || (receivedCommand==OFF)) {
+            if(receivedCommand == OFF) executeCommandLine("sudo sispmctl -f 2") 
+            if(receivedCommand == ON) executeCommandLine("sudo sispmctl -o 2") 
+    
+        }
+end
+
+rule "Item Steckdose_Lampe"
+    when
+        Item Steckdose_Lampe received command
+    then
+        if ((receivedCommand==ON) || (receivedCommand==OFF)) {
+            if(receivedCommand == OFF) executeCommandLine("sudo sispmctl -f 3") 
+            if(receivedCommand == ON) executeCommandLine("sudo sispmctl -o 3") 
+    
+        }
+end
+
+rule "Item Steckdose_Drucker"
+    when
+        Item Steckdose_Drucker received command
+    then
+        if ((receivedCommand==ON) || (receivedCommand==OFF)) {
+            if(receivedCommand == OFF) executeCommandLine("sudo sispmctl -f 4") 
+            if(receivedCommand == ON) executeCommandLine("sudo sispmctl -o 4") 
+    
+        }
+end
+
+
+rule "Check AZ room temperatures"
+    when
+        System started or
+        Time cron "0 0/5 * * * ?"
+    then
+        val String result = executeCommandLine("sudo python /openhab/scripts/office.py temp", 15000) 
+        postUpdate(Temperature_FF_Office, result)
+
+        val String resulta = executeCommandLine("sudo python /openhab/scripts/office.py hum", 15000) 
+        postUpdate(Hum_FF_Office, resulta)
+end
+
+rule "Check Device temperature"
+    when
+        System started or
+        Time cron "0 0/5 * * * ?"
+    then
+        val String result = executeCommandLine("bash /openhab/scripts/temp.sh", 15000) 
+        postUpdate(Raspberry_Temperature, result)
+end

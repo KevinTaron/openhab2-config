@@ -1,0 +1,4 @@
+yahooweather:weather:paderborn [ location=684090 ]
+astro:sun:home   [ geolocation="51.718921,8.757509", interval=60 ]
+astro:moon:home  [ geolocation="51.718921,8.757509", interval=60 ]
+ntp:ntp:demo [ hostname="nl.pool.ntp.org", refreshInterval=60, refreshNtp=30 ]
