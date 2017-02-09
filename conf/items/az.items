@@ -4,10 +4,15 @@ Group Arbeitszimmer <office> 	(aZ)
 Switch Steckdose_KevinPC "Strom Kevin's PC" (Steckdose, Arbeitszimmer, PC) { }
 Switch Steckdose_NAS "NAS" (Steckdose, Arbeitszimmer, NAS) { }
 Switch Steckdose_Lampe "Arbeitszimmer Lampe" (Steckdose, Arbeitszimmer, Lights) { } 
-Switch Steckdose_Drucker "Strom Drucker" (Steckdose, Arbeitszimmer, Printer) { }
+Switch Steckdose_Drucker "Strom Monitor" (Steckdose, Arbeitszimmer, Printer) { }
 
 Number Temperature_FF_Office 	"Temperature [%.1f °C]"	<temperature>	(Temperature, Arbeitszimmer) {}
-Number Hum_FF_Office 	"Feuchtigkeit [%.1f %%]"	<temperature>	(Temperature, Arbeitszimmer) {}
+Number Hum_FF_Office 	"Feuchtigkeit [%.1f %%]"	<water>	(Temperature, Arbeitszimmer) {}
+
+Number Heizung_FF_Office "Arbeitszimmer Thermostat Temp [%.1f °C]" <heating>	(Temperature, Arbeitszimmer) { }
+Number Heizung_Bat_FF_Office "Arbeitszimmer Heizung Battery [%d %%]" <battery> (Battery, Arbeitszimmer) {  }
+Switch Heizung_Boost 
+Switch AZ_Mode 
 
 /* Geräte */
 Number Raspberry_Temperature "CPU-Temperatur [%.1f °C]" <temperature> (System_Stats) { }

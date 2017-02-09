@@ -1,7 +1,26 @@
 sitemap default label="Zuhause"
 {
 	Frame label="Zimmer" {
-		Group item=Arbeitszimmer label="Arbeitszimmer"
+		Text label="Arbeitszimmer" icon="office" {
+			Frame label="Master" {
+				Switch item=AZ_Mode label="Alle Geräte" mappings=[OFF="Aus", ON="Arbeiten"]
+			}
+			Frame label="Strom" {
+				Switch item=Steckdose_KevinPC label="Strom Kevin's PC" 
+				Switch item=Steckdose_NAS label="NAS" 
+				Switch item=Steckdose_Lampe label="Arbeitszimmer Lampe" 
+				Switch item=Steckdose_Drucker label="Strom Monitor"
+			}
+			Frame label="Heizung" {
+				Text item=Temperature_FF_Office label="Temperatur [%.1f °C]" 
+				Setpoint item=Heizung_FF_Office label="Heizung [%.1f °C]" step=1 minValue=14 maxValue=34
+				Switch item=Heizung_Boost label="Heizung Boost" mappings=[OFF="Kalt", ON="Warm"]
+				Text item=Hum_FF_Office label="Feuchtigkeit [%.1f %%]"
+			}
+			Frame label="Battery" {
+				Text item=Heizung_Bat_FF_Office label="Heizung Battery [%d %%]"
+			}
+		}
 
 		Text label="Schlafzimmer" icon="bedroom" {
 			Frame label="Bedienung" {

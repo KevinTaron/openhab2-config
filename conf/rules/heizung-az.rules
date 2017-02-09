@@ -1,0 +1,38 @@
+rule "Turn Heizung Off"
+	when   
+		Time cron "0 15 2 ? * *" or
+		Time cron "0 15 6 ? * *"
+	then
+		Heizung_FF_Office.sendCommand(16)
+end
+
+rule "Check Boost"
+    when
+        Item Heizung_FF_Office received command
+    then
+        if (Heizung_FF_Office.state > 19) {
+           	Heizung_Boost.sendCommand(ON)    
+        } else {
+           	Heizung_Boost.sendCommand(OFF)   
+        }
+end
+
+rule "Boost"
+    when
+        Item Heizung_Boost received command
+    then
+    	if(receivedCommand==ON && Heizung_FF_Office.state < 19) {
+    		Heizung_FF_Office.sendCommand(22)
+    	}
+    	if(receivedCommand==OFF && Heizung_FF_Office.state > 16) {
+    		Heizung_FF_Office.sendCommand(16)
+    	}
+end
+
+
+rule "Check Battery"
+    when
+        Item Heizung_Bat_FF_Office changed
+    then
+    	sendMail("kevin.taron@gmail.com", "Batterie leer", "Die Batterie der Heizung im Arbeitzimmer ist leer. Bitte austauschen.")
+end

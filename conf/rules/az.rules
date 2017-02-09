@@ -5,7 +5,8 @@ rule "Item Steckdose_KevinPC"
         if ((receivedCommand==ON) || (receivedCommand==OFF)) {
             if(receivedCommand == OFF) executeCommandLine("sudo sispmctl -f 1") 
     		if(receivedCommand == ON) executeCommandLine("sudo sispmctl -o 1") 
-    
+    		Thread::sleep(1000)
+    		sendCommand(Steckdose_Drucker, receivedCommand)
     	}
 end
 
@@ -62,4 +63,34 @@ rule "Check Device temperature"
     then
         val String result = executeCommandLine("bash /openhab/scripts/temp.sh", 15000) 
         postUpdate(Raspberry_Temperature, result)
+end
+
+
+rule "AZ Mode"
+    when
+        Item AZ_Mode received command
+    then
+        if(receivedCommand==ON) {
+            Steckdose_KevinPC.sendCommand(ON)
+            Heizung_Boost.sendCommand(ON)
+            if(now.getHourOfDay > 18) {
+                Steckdose_Lampe.sendCommand(ON)
+            }
+            sendMail("kevin.taron@gmail.com", "Arbeiten", "JETZT ARBEITEN!!!")
+        }
+
+        if(receivedCommand==OFF) {
+            Steckdose_KevinPC.sendCommand(OFF)
+            Steckdose_Lampe.sendCommand(OFF)
+            Heizung_Boost.sendCommand(OFF)
+        }
+end
+
+rule "Check AZ Mode"
+    when
+        Time cron "0 0/5 * * * ?"
+    then
+        if(Steckdose_KevinPC.state == ON && Heizung_FF_Office.state > 19) {
+            AZ_Mode.sendCommand(ON)
+        }
 end
